@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Outer ring -->
+  <circle cx="60" cy="60" r="56" fill="none" stroke="#6b1c1c" stroke-width="3"/>
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#c47c0a" stroke-width="1"/>
+
+  <!-- Shield body -->
+  <path d="M60 20 L88 34 L88 68 Q88 90 60 104 Q32 90 32 68 L32 34 Z"
+        fill="#6b1c1c" stroke="#4e1414" stroke-width="1.5"/>
+
+  <!-- Shield inner lines -->
+  <path d="M60 26 L82 37 L82 68 Q82 86 60 98 Q38 86 38 68 L38 37 Z"
+        fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+
+  <!-- Book icon inside shield -->
+  <rect x="46" y="52" width="28" height="22" rx="1.5" fill="white" opacity="0.9"/>
+  <line x1="60" y1="52" x2="60" y2="74" stroke="#6b1c1c" stroke-width="1.5"/>
+  <line x1="48" y1="58" x2="58" y2="58" stroke="#6b1c1c" stroke-width="1"/>
+  <line x1="48" y1="62" x2="58" y2="62" stroke="#6b1c1c" stroke-width="1"/>
+  <line x1="48" y1="66" x2="58" y2="66" stroke="#6b1c1c" stroke-width="1"/>
+  <line x1="62" y1="58" x2="72" y2="58" stroke="#6b1c1c" stroke-width="1"/>
+  <line x1="62" y1="62" x2="72" y2="62" stroke="#6b1c1c" stroke-width="1"/>
+  <line x1="62" y1="66" x2="72" y2="66" stroke="#6b1c1c" stroke-width="1"/>
+
+  <!-- Flame / torch at top of shield -->
+  <ellipse cx="60" cy="40" rx="5" ry="8" fill="#d4a017" opacity="0.9"/>
+  <ellipse cx="60" cy="38" rx="3" ry="5" fill="#f5c842"/>
+
+  <!-- Bottom banner ribbon -->
+  <path d="M36 88 Q60 96 84 88 L80 100 Q60 108 40 100 Z"
+        fill="#c47c0a" stroke="#a86a08" stroke-width="1"/>
+  <text x="60" y="97" text-anchor="middle" font-size="6.5" fill="white"
+        font-family="Georgia, serif" font-weight="bold" letter-spacing="0.5">KNOWLEDGE · SERVICE</text>
+
+  <!-- College initials in shield area -->
+  <text x="60" y="50" text-anchor="middle" font-size="9" fill="white"
+        font-family="Georgia, serif" font-weight="bold" opacity="0.6">YCJC</text>
+</svg>
