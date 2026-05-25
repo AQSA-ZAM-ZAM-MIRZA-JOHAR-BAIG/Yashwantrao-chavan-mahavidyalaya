@@ -2,13 +2,14 @@
 
 // ── Student Data ──────────────────────────────────────────
 const students = [
-  { roll: 1001, name: "AYUSH PRAKASH DAYAL", gender: "Male", stream: "Science", category: "EWS", perc10: 88.40, perc12: 91.20 },
+  { roll: 1007, name: "AQSA ZAM ZAM MIRZA JOHAR BAIG", gender: "Female", stream: "Comp. Science", category: "General", perc10: 97.00, perc12: 95.60 },
+  { roll: 1001, name: "AYUSH PRAKASH DAYAL", gender: "Male", stream: "Comp. Science", category: "EWS", perc10: 88.80, perc12: 86.50 },
   { roll: 1002, name: "Priya Anjali Shinde", gender: "Female", stream: "Science", category: "OBC", perc10: 82.60, perc12: 87.80 },
   { roll: 1003, name: "ROHIT MAHENDRA JADHAV", gender: "Male", stream: "Commerce", category: "SC", perc10: 74.20, perc12: 78.60 },
   { roll: 1004, name: "Sneha Vaishnavi Deshmukh", gender: "Female", stream: "Arts", category: "ST", perc10: 69.40, perc12: 73.20 },
   { roll: 1005, name: "VIVEK ANAND KADAM", gender: "Male", stream: "Science", category: "EWS", perc10: 91.00, perc12: 94.40 },
   { roll: 1006, name: "Pooja Rani Gaikwad", gender: "Female", stream: "Commerce", category: "General", perc10: 76.80, perc12: 81.20 },
-  { roll: 1007, name: "AQSA ZAM ZAM MIRZA JOHAR BAIG", gender: "Female", stream: "Science", category: "General", perc10: 65.00, perc12: 68.60 },
+  
   { roll: 1008, name: "Kavita Meera Mane", gender: "Female", stream: "Science", category: "OBC", perc10: 85.20, perc12: 89.00 },
   { roll: 1009, name: "SIDDHARTH VINAY MORE", gender: "Male", stream: "Commerce", category: "General", perc10: 79.60, perc12: 83.40 },
   { roll: 1010, name: "Ananya Priyal Kulkarni", gender: "Female", stream: "Science", category: "EWS", perc10: 93.40, perc12: 96.20 },
