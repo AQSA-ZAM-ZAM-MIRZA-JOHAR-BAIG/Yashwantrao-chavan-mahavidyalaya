@@ -2,7 +2,7 @@
 
 // ── Student Data ──────────────────────────────────────────
 const students = [
-  { roll: 1007, name: "AQSA ZAM ZAM MIRZA JOHAR BAIG", gender: "Female", stream: "Comp. Science", category: "General", perc10: 97.00, perc12: 95.60 },
+  { roll: 1007, name: "AQSA ZAM ZAM MIRZA JOHAR BAIG", gender: "Female", stream: "Comp. Science", category: "Open", perc10: 97.00, perc12: 95.60 },
   { roll: 1001, name: "AYUSH PRAKASH DAYAL", gender: "Male", stream: "Comp. Science", category: "EWS", perc10: 88.80, perc12: 86.50 },
   { roll: 1002, name: "Priya Anjali Shinde", gender: "Female", stream: "Science", category: "OBC", perc10: 82.60, perc12: 87.80 },
   { roll: 1003, name: "ROHIT MAHENDRA JADHAV", gender: "Male", stream: "Commerce", category: "SC", perc10: 74.20, perc12: 78.60 },
@@ -103,7 +103,7 @@ function getGrade(p) {
 }
 
 function getRemark(p) {
-  if (p >= 91) return { text: 'Distinction', cls: 'remark-dist' };
+  if (p >= 91) return { text: 'Outstanding', cls: 'remark-dist' };
   if (p >= 60) return { text: 'Pass', cls: 'remark-pass' };
   return              { text: 'Needs Improvement', cls: '' };
 }
@@ -215,7 +215,7 @@ function buildCharts() {
   const total = students.length;
 
   // Category Chart
-  const cats = ['General','OBC','SC','ST','NT','EWS'];
+  const cats = ['Open','General','OBC','SC','ST','NT','EWS'];
   document.getElementById('categoryChart').innerHTML = cats.map(c => {
     const n = students.filter(s => s.category === c).length;
     const w = Math.round((n / total) * 100);

@@ -395,6 +395,7 @@ body {
   color: var(--text);
   background: var(--white);
 }
+.cat-Open,
 .cat-General,
 .cat-OBC,
 .cat-SC,
